@@ -6,10 +6,296 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BESTBUY</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100%;
+            background: linear-gradient(45deg, #101f61, #2b4cb6 40%, #4171fc 59%, #7fd8ff 85%, #a6e4ff);
+        }
+
+        #container {
+            position: absolute;
+            /* border: 2px solid red; */
+            position: relative;
+            height: 100%;
+            box-sizing: border-box;
+
+        }
+
+        #nav {
+            width: 100%;
+            height: 20px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+        }
+
+        #nav>div {
+            width: 13%;
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            position: absolute;
+            left: 60%;
+        }
+
+        #nav>div>p {
+            width: 60px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        #nav>div>p:hover {
+            text-decoration: underline;
+        }
+
+        #container>div {
+
+            /* border: 2px solid red; */
+            width: 50%;
+            margin: auto;
+            padding: 38px;
+        }
+
+
+        .flag {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+
+        }
+
+        .flag div {
+            width: 30%;
+            box-sizing: border-box;
+            height: 90px;
+        }
+
+        .flag div:hover {
+            border: 5px solid yellow;
+            cursor: pointer;
+        }
+
+        .flag img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #logo {
+            width: 15%;
+            display: block;
+            margin-bottom: 0px;
+        }
+
+        img+h1,
+        img+h1+h1 {
+            font-size: 50px;
+            color: white;
+            font-family: Human BBY Web, Roboto, Arial, sans-serif;
+            margin-top: 10px;
+            margin-bottom: 0;
+
+        }
+
+        img+h1+h1 {
+            margin-bottom: 20px;
+            margin-top: 0;
+        }
+
+        #country_name {
+            display: flex;
+            justify-content: space-between;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        #country_name>h3 {
+            width: 30%;
+            margin: 0;
+            text-align: center;
+            color: white;
+        }
+
+
+        #horizontal {
+            width: 100%;
+            height: 2px;
+            background: #4976e6;
+
+        }
+
+        #details>h3 {
+            color: white;
+            font-size: 20px;
+            font-family: Human BBY Web, Roboto, Arial, sans-serif;
+        }
+
+        #details>p {
+            font-size: 20px;
+            color: white;
+            font-family: Human BBY Web, Roboto, Arial, sans-serif;
+        }
+
+        p>a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            font-family: Human BBY Web, Roboto, Arial, sans-serif;
+        }
+
+        p>a:hover {
+            text-decoration: underline;
+        }
+
+        @media all and (min-width: 480px) and (max-width:720px) {
+
+            img+h1+h1,
+            img+h1 {
+                font-size: 40px;
+            }
+
+            #container>div {
+                width: 80%;
+            }
+
+            #nav>div {
+                width: 25%;
+            }
+
+        }
+
+        @media all and (min-width: 280px) and (max-width:479px) {
+            body {
+                background: #518cfc;
+            }
+
+            img+h1+h1,
+            img+h1 {
+                font-size: 20px;
+            }
+
+            #container>div {
+                width: 80%;
+            }
+
+            #details>h3 {
+                font-size: 15px;
+            }
+
+            #details>p {
+                font-size: 15px;
+            }
+
+            .flag div {
+                height: 60px;
+            }
+
+            #details>h3 {
+                font-size: 15px;
+            }
+
+            #details>p {
+                font-size: 12px
+            }
+
+            #nav>div {
+                width: 40%;
+                left: 50%;
+            }
+
+            #nav>div>p {
+                font-size: 10px;
+            }
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Navbar Section -->
 
+    <div id="nav">
+        <div>
+            <p class="en">English</p>
+            <p class="hindi">Hindi</p>
+            <p class="french">Francias</p>
+        </div>
+    </div>
+
+    <!-- main body content section -->
+
+    <div id="container">
+        <div>
+            <!-- bestbuy logo -->
+            <img src="https://www.bestbuy.com/~assets/bby/_com/header-footer/images/bby_logo-a7e90594729ed2e119331378def6c97e.png"
+                alt="" id="logo">
+
+            <h1 id="heading1">Hello!</h1>
+            <h1 id="heading2">Choose a country.</h1>
+
+            <!-- countries flags -->
+            <div class="flag">
+                <div>
+                    <img src="https://cdn.britannica.com/97/1597-004-05816F4E/Flag-India.jpg" alt="">
+                </div>
+                <div>
+                    <img src="https://www.bestbuy.com/~assets/bby/_intl/landing_page/images/maps/canada.svg" alt="">
+                </div>
+                <div>
+
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png"
+                        alt="">
+                </div>
+            </div>
+
+            <!-- countries name -->
+            <div id="country_name">
+                <h3 id="in">India</h3>
+                <h3 id="cd">Canada</h3>
+                <h3 id="us">United States</h3>
+            </div>
+            <div id="horizontal"></div>
+            <div id="details">
+                <h3>Shopping in the U.S.?</h3>
+                <p>International customers can shop on www.bestbuy.com and have orders shipped to any U.S.
+                    address or
+                    U.S.
+                    store. <a
+                        href="https://www.bestbuy.com/site/help-topics/international-orders/pcmcat204400050019.c?id=pcmcat204400050019&intl=nosplash">See
+                        More Details</a> <img
+                        src="https://www.bestbuy.com/~assets/bby/_intl/landing_page/images/icons/arrow.svg" alt=""></p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
+
+<script>
+    document.querySelector(".en").addEventListener("click", function () {
+        window.location.href = "index.html";
+    })
+
+
+    document.querySelector(".hindi").addEventListener("click", function () {
+        document.querySelector("#heading1").innerText = "नमस्कार"
+        document.querySelector("#heading2").innerText = "देश का चयन करें"
+        document.querySelector("#in").innerText = "भारत"
+        document.querySelector("#cd").innerText = "कनाडा"
+        document.querySelector("#us").innerText = "संयुक्त राज्य अमेरिका"
+    })
+
+    document.querySelector(".french").addEventListener("click", function () {
+
+        document.querySelector("#heading1").innerText = "Bonjour!"
+        document.querySelector("#heading2").innerText = "Choisir un pays :"
+        document.querySelector("#details > h3").innerText = "Vous magasinez aux É.-U.?"
+        document.querySelector("#in").innerText = "India"
+        document.querySelector("#cd").innerText = "Canada"
+        document.querySelector("#us").innerText = "United States"
+    })
+
+
+</script>

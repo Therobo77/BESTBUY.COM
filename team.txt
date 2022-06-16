@@ -1,8 +1,9 @@
-TEAM NAME: JS LOVERS
+Team Name - jsLovers
 
-TEAM MEMBERS:
-1.VIKASH KUMAR LAL...fp04_059;>>>>>TEAM LEAD;
-2.BRAJESH KUMAR......fw19_0331;>>>>>>VICE LEAD;
-3.SHANTI LAL.........fw19_0162;>>>>>>IN CHARGE;
-4.AMAN VYAS..........fw19_0152;>>>>>>HERO;
-5.BITU SAH..........fw18_0236;>>>>>>HERO;
+Team Member:
+
+1.Shantilal          fw19_0162   Team Leader -1
+2.Brajesh Kumar      fw19_0331   Team leader -2
+3.Aman Vyas          fw19_0152
+4.Vikash Kumar Lal   fp04_059
+5.Bitu Sah           fw18_0236

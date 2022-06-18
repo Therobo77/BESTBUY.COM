@@ -1,0 +1,248 @@
+* {
+    font-family: Human BBY Digital, Human Fallback, Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#content-navbar {
+    background-color: #0046BE;
+    margin-bottom: 4px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    max-width: 1008px;
+    margin: auto;
+    /* background-color: #0046BE; */
+
+}
+
+#navbar>a {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#navbar>div:first-child{
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar>div:first-child>p{
+    color: white;
+    font-size: 25px;
+}
+
+.para{
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#form-container {
+    background-color: #f0f2f4;
+    /* border: 1px solid black; */
+    padding: 28px 0px 28px 0px;
+    display: grid;
+    grid-template-columns: 50% 30%;
+    gap: 25px;
+    justify-content: center;
+}
+
+
+#total-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1+div{
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+
+#card-num{
+    width: 100%;
+}
+
+input,select{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+input{
+    border: 0.4px solid black;
+}
+
+input:hover,select:hover{
+    border-color: blue;
+}
+#date-card{
+    display: flex;
+    /* border: 1px solid blue; */
+    margin-top: 15px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#date-card>div{
+    /* border: 1px solid black; */
+    width: 49%;
+}
+
+select{
+    width: 100%;
+}
+
+label,select{
+    display: block;
+}
+
+label{
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+}
+
+#summary{
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+#card-details{
+    background-color: white;
+}
+
+#place-order{
+    background-color: white;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    padding: 20px;
+}
+/* 
+#btn-div{
+    border: 1px solid red;
+
+} */
+
+#info{
+    margin-top:-10px;
+    margin-bottom: 10px;
+}
+
+.btn-order{
+    display: flex;
+    background-color: #ffe000;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+    height: 45px;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.btn-order:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-size: 13px;
+}
+
+h5~p{
+    font-size: 13px;
+}
+
+hr{
+    margin:10px 0px;
+}
+
+#payment{
+  display:none;   
+}
+#payment>p{
+    color:green;
+    font-size: 25px;
+    text-align: center;
+    /* background-color: green; */
+    padding: 7px;
+    border-radius: 4px;
+}
+
+#payment>button{
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    border-radius: 4px;
+}
+
+#payment>button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.783);
+}
+
+/* css for footer */
+.footer{
+    margin-top: 20px;
+}
+
+.footer>div{
+    width: 80%;
+    /* border: 1px solid black; */
+    height: auto;
+    text-align: start;
+    margin: auto;
+    font-size: 12px;
+}
+
+.footer>div>p>a{
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.terms{
+    font-size: 11px;
+}
+.terms>a{
+    text-decoration: none;
+}
+
+#cvv{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+#save-card-container{
+    display: flex;
+    gap: 10px;
+}
+
+.save-card-label{
+    /* display: block; */
+    margin-top: 8px;
+}
+
+@media all and (min-width:200px) and (max-width:700px){
+    #form-container {
+        grid-template-columns: 100%;
+        row-gap: 25px;
+        justify-content: center;
+    }
+
+}

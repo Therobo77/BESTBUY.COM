@@ -1,0 +1,41 @@
+body p,body img, body h3, body button, body svg{
+    cursor: pointer;
+}
+#filter{
+    margin-left: 20px;
+}
+
+#productPage{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+}
+#card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#pname{
+    height: 30px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+#pprice{
+    line-height: 25px;
+}
+#pbutton{
+    padding: 5px 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color:hsl(217, 78%, 56%);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#pimg{
+    width: 100%;
+}

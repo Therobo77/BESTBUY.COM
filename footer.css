@@ -50,7 +50,7 @@ hr {
     /* width: 115%; */
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 150px) 300px;
+    grid-template-columns: repeat(3, 230px) 300px;
     grid-template-rows: repeat(2, 210px);
     grid-template-areas:
         "b1 b2 b3 b7"

@@ -13,9 +13,7 @@ body{
     display: flex;
     
 }
-#div-for-content>div{
-    /* border: 1px solid red; */
-}
+
 #div-for-content>div:first-child{
     width: 70%;
     padding: 31px;
@@ -99,3 +97,8 @@ div>span{
     border:1px solid rgb(206, 204, 204);
     margin-bottom: 15px;
 }
+
+.accountList{
+    z-index: 2;
+}
+

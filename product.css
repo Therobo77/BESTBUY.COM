@@ -1,3 +1,7 @@
+body{
+    font-family: Human BBY Digital, Human Fallback, Arial, Helvetica, sans-serif;
+}
+
 body p,body img, body h3, body button, body svg{
     cursor: pointer;
 }
@@ -38,4 +42,5 @@ body p,body img, body h3, body button, body svg{
 }
 #pimg{
     width: 100%;
+    max-height: 200px;
 }

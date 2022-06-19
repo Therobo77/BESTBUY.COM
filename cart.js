@@ -12,6 +12,7 @@ function displayCartItems(cartLS){
     totalPrice = 0;
     cartLS.forEach(function(el,index){
         let div = document.createElement("div");
+        div.style.height = "200px"
         let img = document.createElement("img");
         img.setAttribute("src",el.image_url);
         img.setAttribute("width","30%");

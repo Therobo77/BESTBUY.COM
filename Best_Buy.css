@@ -1,6 +1,19 @@
+body{
+    font-family: Human BBY Digital, Human Fallback, Arial, Helvetica, sans-serif;
+}
+
 body p,body img, body h3, body button, body svg{
     cursor: pointer;
 }
+
+#edit-middle>img{
+    height: 180px;
+    /* border: 1px solid black; */
+    /* position: absolute; */
+    /* z-index: -1; */
+}
+
+
 /* This section is for deals */
 .deals{
     display: grid;

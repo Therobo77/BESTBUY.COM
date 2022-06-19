@@ -1,0 +1,219 @@
+/* This section is for footer*/
+#footer {
+    background-color: #f0f2f4;
+    height: auto;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+#footer>div:first-child {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer>div:first-child>div {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 13px;
+}
+
+#footer>div:nth-child(2) p {
+    /* text-align: center; */
+    color: #215dc8;
+}
+
+#topFooter svg {
+    position: relative;
+    left: 40%;
+    width: 35px;
+}
+
+#topFooter p{
+    color: #0457c8;
+    font-size: 10px;
+}
+
+hr {
+    width: 94%;
+    margin: 10px 0;
+}
+
+#footer_section {
+    /* border: 1px solid red; */
+    /* width: 115%; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 150px) 300px;
+    grid-template-rows: repeat(2, 210px);
+    grid-template-areas:
+        "b1 b2 b3 b7"
+        "b4 b5 b6 b7"
+    ;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+#footer_section>div>h3{
+    margin-left: 43px;
+}
+
+#footer_section>div:nth-child(1) {
+    grid-area: b1;
+    font-size: 10px;
+}
+
+#footer_section>div:nth-child(2) {
+    grid-area: b2;
+    font-size: 10px;
+}
+
+#footer_section>div:nth-child(3) {
+    grid-area: b3;
+    font-size: 10px;
+}
+
+#footer_section>div:nth-child(4) {
+    grid-area: b4;
+    font-size: 10px;
+}
+
+#footer_section>div:nth-child(5) {
+    grid-area: b5;
+    font-size: 10px;
+}
+
+#footer_section>div:nth-child(6) {
+    grid-area: b6;
+    font-size: 10px;
+}
+
+#footer_section>div:nth-child(7) {
+    grid-area: b7;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 20px;
+    margin-left: 50px;
+    margin-right: -50px;
+    background-color: white;
+}
+
+#footer_signupBox input[type='email']{
+    padding: 6px;
+    margin-top: 20px;
+}
+
+#footer_signupBox a{
+    font-size: 10px;
+}
+
+#footer_signupBox>h3{
+    font-size: 15px;
+}
+
+#footer_signupBox button{
+    background-color:#397ce7;
+    border: none;
+    padding: 8px;
+    color: white;
+    margin-top: 20px;
+}
+
+#footer_section h3 {
+    width: 72%;
+    margin: 0 auto;
+    font-weight: 600;
+}
+#footer_signupBox h3+div{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-evenly
+}
+
+#footer_section ul {
+    list-style: none;
+    line-height: 25px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #428bd4;
+}
+
+#feedback-section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+#feedback-section>div {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+}
+
+#footer-end {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#footer-end>div {
+    font-size: 12px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+    color: #428bd4;
+}
+
+#footer-end+p:last-child {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    font-size: 10px;
+}
+
+#social_link {
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+
+#footer_signupBox  svg {
+    width: 40px;
+    /* border: 1px solid red; */
+    padding:0;
+    margin: 0;
+
+}
+
+#BestBuySvg{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: 0 auto;
+}
+
+#BestBuySvg h3{
+    /* border: 1px solid red; */
+    width: 100%;
+    font-size: 15px;
+}
+#BestBuySvg p{
+    /* border: 1px solid red; */
+    text-align: left;
+    margin-top: 0px;
+}

@@ -36,11 +36,32 @@ body p,body img, body h3, body button, body svg{
     font-weight: bold;
     cursor: pointer;
     border: none;
-    background-color:hsl(217, 78%, 56%);
+    background-color:#ffe000;
     border-radius: 10px;
     margin-top: 10px;
+    color: black;
+}
+
+#pbutton:hover{
+    background-color: yellow;
 }
 #pimg{
     width: 100%;
     max-height: 200px;
+}
+
+
+#filter{
+    margin-top: 3px;
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+hr{
+    border-top: 0.8px solid gray;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
 }

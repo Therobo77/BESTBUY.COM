@@ -9,6 +9,7 @@ function handleSorting() {
     let filter = document.querySelector("#filter").value;
     if (filter == "All") {
         displayProduct(productData)
+        window.location.reload();
     }
     if (filter == "low-to-high") {
         productData.sort(function (a, b) {
